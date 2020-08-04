@@ -1,0 +1,36 @@
+package poo;
+
+/**
+ *
+ * @author User
+ */
+public class Empleado3 extends Empleado{
+
+    public Empleado3(String nomApe, double numide) {
+        super(nomApe, numide);
+    }
+
+    public Empleado3(double salario) {
+        super(salario);
+    }
+
+    public double salarioGerente(double viaticosPersonales, int anios){
+        double adicional;
+        if(anios  == 0){
+            return salario;
+        }
+        else{
+            adicional = salario * 0.05;
+            salario +=adicional+viaticosPersonales;
+            return salario;
+        }
+        
+    }
+
+    @Override
+    public void setnomApe(String Cesar_Rivadeneira) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}
+
