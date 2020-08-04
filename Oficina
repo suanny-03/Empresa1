@@ -1,0 +1,28 @@
+package poo;
+
+/**
+ *
+ * @author User
+ */
+public class Oficina extends Empleado{
+    private int numeroDeIdentificacion;
+    private int codigoArea;
+
+    public Oficina(int numeroDeIdentificacion, int codigoArea, String nomApe, double numide) {
+        super(nomApe, numide);
+        this.numeroDeIdentificacion = numeroDeIdentificacion;
+        this.codigoArea = codigoArea;
+    }
+
+    public Oficina(double salario) {
+        super(salario);
+        //this.numeroDeIdentificacion = numeroDeIdentificacion;
+        //this.codigoArea = codigoArea;
+    }
+    
+    //salario = sueldo basico
+    public double salarioOficionista(){
+        return salario;
+    }
+}
+
