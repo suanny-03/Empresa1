@@ -1,0 +1,24 @@
+package poo;
+
+/**
+ *
+ * @author User
+ */
+ import java.util.ArrayList;
+public class Empleado2 {
+   
+
+    private ArrayList<Empleado> empleados = new ArrayList<>();
+    
+    public void contratar(Empleado empleado){
+        empleados.add(empleado);
+    }
+    
+    
+    public double diaDePago(){
+        double sueldosTotales = 0;
+        
+        return sueldosTotales;
+    }
+}
+
