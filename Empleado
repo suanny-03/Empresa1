@@ -1,0 +1,52 @@
+package poo;
+
+/**
+ *
+ * @author User
+ */
+public class Empleado {
+    protected double salario;
+    protected String NomApe;
+    protected double numide;
+    
+    public Empleado(String NomApe, double numide) {
+        //this.salario = salario;
+        this.NomApe = NomApe;
+        this.numide = numide;
+    }
+    
+    public Empleado(double salario){
+        this.salario = salario;
+    }
+
+    
+    public void setNomApe(String NomApe) {
+        this.NomApe = NomApe;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void setCedula(double cedula) {
+        this.numide = cedula;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public String getNombresYapellidos() {
+        return NomApe;
+    }
+
+    public double getCedula() {
+        return numide;
+    }
+
+
+    
+    
+    
+}
+
